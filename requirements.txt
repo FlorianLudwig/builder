@@ -11,7 +11,6 @@ boto3==1.4.0
 botocore==1.4.44
 cairocffi==0.7.2
 CairoSVG==1.0.22
-celery==3.1.18
 certifi==2016.8.8
 cffi==1.7.0
 chardet==2.3.0
@@ -23,7 +22,7 @@ contextlib2==0.5.4
 cryptography==1.4
 csscompressor==0.9.4
 docutils==0.12
-doit==0.26.0
+docker==2.2.1
 enum34==1.1.6
 fpt==0.0.2
 Flask==0.12.1
@@ -57,14 +56,13 @@ pycparser==2.14
 pyinotify==0.9.6
 pylru==1.0.9
 pymongo==3.4.0
-pytest==2.9.2
 python-dateutil==2.5.3
 python-gnupg==0.3.8
 python-magic==0.4.12
 pytz==2016.6.1
 PyYAML==3.11
 raven==5.24.3
-requests==2.11.0
+requests==2.13.0
 rueckenwind==0.4.4
 rwdb==0.0.3
 rwtfoms==0.0.1
@@ -77,8 +75,6 @@ singledispatch==3.4.0.3
 six==1.10.0
 smmap2==2.0.1
 tornado==4.4.1
-tornado-celery==0.3.5
-UgliPyJS==0.2.5
 unicodecsv==0.14.1
 urlhmac==0.4.0
 WTForms==2.1
