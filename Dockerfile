@@ -1,4 +1,4 @@
-FROM fedora:25
+FROM ln-editor.c.r0k.de/base
 
 RUN \
     # enable rpm fusion \
@@ -13,7 +13,7 @@ RUN \
                    libxml2-devel libxslt-devel xorg-x11-server-Xvfb \
                    xorg-x11-xauth which docker-ce openssl-devel.x86_64 \
                    libjpeg-turbo-devel \
-                   nodejs yarn \
+                   yarn \
                    cairo-devel && \
     dnf clean all && \
     rm -rf /tmp/*
