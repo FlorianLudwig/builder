@@ -1,0 +1,10 @@
+image: ln-editor.c.r0k.de/builder
+
+build:
+  stage: build
+  script:
+    - mkdir ~/.docker
+    - echo "$DOCKER_AUTH_CONFIG" > ~/.docker/config.json
+
+    - docker build -t ln-editor.c.r0k.de/builder .
+    - docker push ln-editor.c.r0k.de/builder
